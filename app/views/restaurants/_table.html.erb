@@ -14,7 +14,7 @@
       <tr>
         <td><%= restaurant.name %></td>
         <td><%= restaurant.address %></td>
-        <td><%= restaurant.category %></td>
+        <td><%= restaurant.category.capitalize %></td>
         <td><%= restaurant.phone_number %></td>
         <td><%= link_to 'Show', restaurant, class: "btn btn-primary" %></td>
         <td><%= link_to 'Edit', edit_restaurant_path(restaurant), class: "btn btn-primary" %></td>
